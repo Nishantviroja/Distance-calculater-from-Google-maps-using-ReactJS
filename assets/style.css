@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&family=Work+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0px;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    animation-duration: 4s;
+}
+
+p{
+    margin-bottom: 0rem;
+}
+
+.main-body{
+    background:  #F4F8FA;
+    height: 89.5vh;
+}
+
+.body-sec{  
+
+}
+.sec-title{
+/* border:1px solid red; */
+padding:30px;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 120%;
+text-align: center;
+color: #1B31A8;
+
+}
+.sec-main{
+/* border:1px solid red; */
+display:flex;
+text-align: center;
+justify-content: space-evenly;
+align-items: center;
+height:78vh;
+   
+}
+
+.sec-main-sec{
+    /* border:1px solid blue; */
+    margin:1px;
+}
+
+.sec-main-sec-l{
+
+padding:3rem;
+
+}
+.form-sec-main-sec-l{
+    margin-bottom:3rem;
+display:flex;
+text-align: start;
+    align-content: center;
+    align-items: center;
+
+}
+
+.sec-main-sec-l .label{
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+color: #000000;
+margin-top:2.5rem;
+}
+
+.sec-main-sec-l input{
+    background: #FFFFFF;
+border: 1px solid #E9EEF2;
+border-radius: 4px;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 120%;
+color: #4D6475;
+}
+
+.sec-main-sec-l .btn{
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+padding:10px 25px;
+margin:10px;
+margin-top:60px;
+margin-left:12rem;
+text-align: center;
+color: #FFFFFF;
+background: #1B31A8;
+border-radius: 32px;
+}
+
+.sec-main-sec-l .card-header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 35vw;
+    background:white;
+}
+
+.sec-main-sec-l .card-r-text{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    color: #1E2A32;
+}
+.sec-main-sec-l .card-l-text{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 120%;
+    color: #0079FF;
+    
+}
+.sec-main-sec-l .card-b-text{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 120%;
+    color: #1E2A32;
+    background:red;
+    
+}
+
+.sec-main-sec-r{
+
+    /* padding:2rem; */
+}
+
+
+
+#googleMap {
+    width: 600px;
+    height: 500px;
+   
+  }
+
+
+/*output box*/
+#output {
+    text-align: center;
+   
+    
+  }
+  
+  #mode {
+    color: black;
+  }  
